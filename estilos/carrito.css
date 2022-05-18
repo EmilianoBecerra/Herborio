@@ -1,0 +1,351 @@
+@charset "UTF-8";
+/* **********SMARTPHONE********** */
+@media (max-width: 480px) {
+  /* ESTILOS GLOBALES */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  body {
+    height: 100vh;
+  }
+
+  /* ESTRUCTURA GRID */
+  #grid-area {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 4fr auto;
+  }
+
+  /* ESTILOS ESPECÍFICOS */
+  header {
+    grid-area: header;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  header .titulo {
+    font-family: "Rozha One";
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  header .titulo a:visited {
+    text-decoration: none;
+  }
+  header .nav {
+    margin-top: 10px;
+  }
+  header .nav .link {
+    font-size: 17px;
+    color: black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    margin: 10px;
+  }
+  header .nav .link:visited {
+    text-decoration: none;
+  }
+
+  main {
+    grid-area: main;
+  }
+  main .factura {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 4fr);
+    width: 95vw;
+    margin-top: 50px;
+    margin-left: 10px;
+    align-items: center;
+  }
+  main .factura .celda-factura {
+    border: solid 1px black;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  main .factura .celda-productos {
+    border: solid 1px black;
+    font-weight: bold;
+    text-align: center;
+  }
+  main .factura .celda-filaUltima {
+    font-weight: bold;
+    text-align: center;
+  }
+  main .factura .valorfinal {
+    border: solid 1px black;
+  }
+  main .div-boton {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: end;
+    margin-right: 10px;
+    margin-top: 30px;
+  }
+  main .div-boton .button {
+    background-color: black;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+  main .div-boton .aclaracion {
+    border: 1 solid black;
+    margin-top: 50px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+  footer .pie {
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+  }
+}
+@media (min-width: 481px) and (max-width: 1023px) {
+  /* ESTILOS GLOBALES */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  body {
+    height: 100vh;
+  }
+
+  /* ESTRUCTURA GRID */
+  #grid-area {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 4fr auto;
+  }
+
+  /* ESTILOS ESPECÍFICOS */
+  header {
+    grid-area: header;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  header .titulo {
+    font-family: "Rozha One";
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  header .titulo a:visited {
+    text-decoration: none;
+  }
+  header .nav {
+    margin-top: 10px;
+  }
+  header .nav .link {
+    font-size: 17px;
+    color: black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    margin: 10px;
+  }
+  header .nav .link:visited {
+    text-decoration: none;
+  }
+
+  main {
+    grid-area: main;
+  }
+  main .factura {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 4fr);
+    width: 95vw;
+    margin-top: 50px;
+    margin-left: 10px;
+    align-items: center;
+  }
+  main .factura .celda-factura {
+    border: solid 1px black;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  main .factura .celda-productos {
+    border: solid 1px black;
+    font-weight: bold;
+    text-align: center;
+  }
+  main .factura .celda-filaUltima {
+    font-weight: bold;
+    text-align: center;
+  }
+  main .factura .valorfinal {
+    border: solid 1px black;
+  }
+  main .div-boton {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: end;
+    margin-right: 10px;
+    margin-top: 30px;
+  }
+  main .div-boton .button {
+    background-color: black;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+  main .div-boton .aclaracion {
+    border: 1 solid black;
+    margin-top: 50px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+  footer .pie {
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+  }
+}
+/* **********DESKTOP********** */
+@media (min-width: 1024px) and (max-width: 1900px) {
+  /* ESTILOS GLOBALES */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  body {
+    height: 100vh;
+  }
+
+  /* ESTRUCTURA GRID */
+  #grid-area {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 4fr auto;
+  }
+
+  /* ESTILOS ESPECÍFICOS */
+  header {
+    grid-area: header;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 10px 10px 50px 20px;
+  }
+  header .titulo {
+    font-family: "Rozha One";
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+  }
+  header .titulo a:visited {
+    text-decoration: none;
+  }
+  header .nav {
+    margin-top: 10px;
+    margin-left: 80px;
+  }
+  header .nav .link {
+    font-size: 20px;
+    color: black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    margin: 10px;
+  }
+  header .nav .link:visited {
+    text-decoration: none;
+  }
+
+  main {
+    grid-area: main;
+  }
+  main .factura {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 4fr);
+    width: 90vw;
+    margin-top: 50px;
+    margin-left: 60px;
+    align-items: center;
+  }
+  main .factura .celda-factura {
+    border: solid 1px black;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  main .factura .celda-productos {
+    border: solid 1px black;
+    font-weight: bold;
+    text-align: center;
+  }
+  main .factura .celda-filaUltima {
+    font-weight: bold;
+    text-align: center;
+  }
+  main .factura .valorfinal {
+    border: solid 1px black;
+  }
+  main .div-boton {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: end;
+    margin-right: 179px;
+    margin-top: 30px;
+  }
+  main .div-boton .button {
+    background-color: black;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  main .div-boton .aclaracion {
+    margin-top: 5px;
+    font-size: 11px;
+    text-align: center;
+    width: 10%;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+  footer .pie {
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=carrito.css.map */

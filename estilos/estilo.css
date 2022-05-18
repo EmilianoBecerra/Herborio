@@ -1,0 +1,304 @@
+/*smartphone*/
+@media (max-width: 480px) {
+  /* Estilos Globales */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  body {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../imagenes/fondo-homee.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* ESTRUCTURA GRID */
+  #grid-area {
+    display: grid;
+    grid-template-areas: "cabeza" "esqueleto" "pie";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 2fr auto;
+  }
+
+  #pie {
+    grid-area: pie;
+  }
+
+  /* ESTILOS ESPECIFICOS */
+  .home #cabeza {
+    grid-area: cabeza;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .home #cabeza .caja-redes {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+  }
+  .home #cabeza .caja-redes .lista-redes {
+    margin: 20px 15px 13px 0px;
+  }
+  .home #cabeza .caja-redes .lista-redes .lista {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+  }
+  .home #cabeza .caja-redes .lista-redes .lista a {
+    text-decoration: none;
+  }
+  .home #cabeza .caja-redes .lista-redes .lista .redes {
+    width: 25px;
+    margin: 5px;
+  }
+  .home #cabeza .div-paginas {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .home #cabeza .div-paginas .vinculo-paginas {
+    color: white;
+    text-decoration: none;
+    margin-right: 7px;
+    font-size: 16px;
+  }
+  .home #cabeza .div-paginas .vinculo-paginas:visited {
+    text-decoration: none;
+  }
+  .home #esqueleto {
+    grid-area: esqueleto;
+  }
+  .home #esqueleto .caja-esqueleto {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .home #esqueleto .caja-esqueleto h1 {
+    font-family: "Rozha One";
+    font-size: 50px;
+    color: white;
+  }
+  .home #esqueleto .caja-esqueleto .vinculo-producto {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  .home #pie {
+    text-align: center;
+  }
+  .home #pie .pie {
+    color: white;
+    font-size: 12px;
+  }
+}
+/*tablet*/
+@media (min-width: 481px) and (max-width: 1023px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  body {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../imagenes/fondo-homee.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* ESTRUCTURA GRID */
+  #grid-area {
+    display: grid;
+    grid-template-areas: "cabeza" "esqueleto" "pie";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 2fr auto;
+  }
+
+  #pie {
+    grid-area: pie;
+  }
+
+  /* ESTILOS ESPECIFICOS */
+  .home #cabeza {
+    grid-area: cabeza;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .home #cabeza .caja-redes {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+  }
+  .home #cabeza .caja-redes .lista-redes {
+    margin: 20px 15px 13px 0px;
+  }
+  .home #cabeza .caja-redes .lista-redes .lista {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+  }
+  .home #cabeza .caja-redes .lista-redes .lista a {
+    text-decoration: none;
+  }
+  .home #cabeza .caja-redes .lista-redes .lista .redes {
+    width: 25px;
+    margin: 5px;
+  }
+  .home #cabeza .div-paginas {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .home #cabeza .div-paginas .vinculo-paginas {
+    color: white;
+    text-decoration: none;
+    margin-right: 7px;
+    font-size: 16px;
+  }
+  .home #cabeza .div-paginas .vinculo-paginas:visited {
+    text-decoration: none;
+  }
+  .home #esqueleto {
+    grid-area: esqueleto;
+  }
+  .home #esqueleto .caja-esqueleto {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .home #esqueleto .caja-esqueleto h1 {
+    font-family: "Rozha One";
+    font-size: 50px;
+    color: white;
+  }
+  .home #esqueleto .caja-esqueleto .vinculo-producto {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  .home #pie {
+    text-align: center;
+  }
+  .home #pie .pie {
+    color: white;
+    font-size: 12px;
+  }
+}
+/*desktop*/
+@media (min-width: 1024px) {
+  /* ESTILOS GLOBALES */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  body {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../imagenes/fondo-homee.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* ESTRUCTURA GRID */
+  #grid-area {
+    display: grid;
+    grid-template-areas: "cabeza" "esqueleto" "pie";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 2fr auto;
+  }
+
+  /* ESTILOS ESPECIFICOS */
+  .home #cabeza {
+    grid-area: cabeza;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .home #cabeza .caja-redes {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+  }
+  .home #cabeza .caja-redes .lista-redes {
+    margin: 20px 15px 13px 0px;
+  }
+  .home #cabeza .caja-redes .lista-redes .lista {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+  }
+  .home #cabeza .caja-redes .lista-redes .lista a {
+    text-decoration: none;
+  }
+  .home #cabeza .caja-redes .lista-redes .lista .redes {
+    width: 35px;
+    margin: 5px;
+  }
+  .home #cabeza .div-paginas {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    margin-top: 10px;
+  }
+  .home #cabeza .div-paginas .vinculo-paginas {
+    color: white;
+    text-decoration: none;
+    margin-right: 7px;
+    font-size: 16px;
+  }
+  .home #cabeza .div-paginas .vinculo-paginas:visited {
+    text-decoration: none;
+  }
+  .home #esqueleto {
+    grid-area: esqueleto;
+  }
+  .home #esqueleto .caja-esqueleto {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .home #esqueleto .caja-esqueleto h1 {
+    font-family: "Rozha One";
+    font-size: 100px;
+    color: white;
+  }
+  .home #esqueleto .caja-esqueleto .vinculo-producto {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  .home #pie {
+    grid-area: pie;
+    text-align: center;
+  }
+  .home #pie .pie {
+    color: white;
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
