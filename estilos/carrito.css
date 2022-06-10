@@ -257,6 +257,7 @@
     grid-area: header;
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
     margin: 10px 10px 50px 20px;
   }
   header .titulo {

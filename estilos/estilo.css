@@ -25,36 +25,11 @@
     grid-template-rows: auto 2fr auto;
   }
 
-  #pie {
-    grid-area: pie;
-  }
-
   /* ESTILOS ESPECIFICOS */
   .home #cabeza {
     grid-area: cabeza;
     display: flex;
     flex-flow: column nowrap;
-  }
-  .home #cabeza .caja-redes {
-    width: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: end;
-  }
-  .home #cabeza .caja-redes .lista-redes {
-    margin: 20px 15px 13px 0px;
-  }
-  .home #cabeza .caja-redes .lista-redes .lista {
-    list-style: none;
-    display: inline;
-    text-decoration: none;
-  }
-  .home #cabeza .caja-redes .lista-redes .lista a {
-    text-decoration: none;
-  }
-  .home #cabeza .caja-redes .lista-redes .lista .redes {
-    width: 25px;
-    margin: 5px;
   }
   .home #cabeza .div-paginas {
     display: flex;
@@ -63,10 +38,11 @@
     margin-top: 20px;
   }
   .home #cabeza .div-paginas .vinculo-paginas {
-    color: white;
-    text-decoration: none;
-    margin-right: 7px;
     font-size: 16px;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    margin: 10px;
   }
   .home #cabeza .div-paginas .vinculo-paginas:visited {
     text-decoration: none;
@@ -93,11 +69,35 @@
     color: white;
   }
   .home #pie {
+    grid-area: pie;
     text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
   }
   .home #pie .pie {
     color: white;
     font-size: 12px;
+  }
+  .home #pie .caja-redes {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+  }
+  .home #pie .caja-redes .lista-redes {
+    margin: 10px 15px 13px 0px;
+  }
+  .home #pie .caja-redes .lista-redes .lista {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+  }
+  .home #pie .caja-redes .lista-redes .lista a {
+    text-decoration: none;
+  }
+  .home #pie .caja-redes .lista-redes .lista .redes {
+    width: 20px;
+    margin: 5px;
   }
 }
 /*tablet*/
@@ -126,36 +126,11 @@
     grid-template-rows: auto 2fr auto;
   }
 
-  #pie {
-    grid-area: pie;
-  }
-
   /* ESTILOS ESPECIFICOS */
   .home #cabeza {
     grid-area: cabeza;
     display: flex;
     flex-flow: column nowrap;
-  }
-  .home #cabeza .caja-redes {
-    width: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: end;
-  }
-  .home #cabeza .caja-redes .lista-redes {
-    margin: 20px 15px 13px 0px;
-  }
-  .home #cabeza .caja-redes .lista-redes .lista {
-    list-style: none;
-    display: inline;
-    text-decoration: none;
-  }
-  .home #cabeza .caja-redes .lista-redes .lista a {
-    text-decoration: none;
-  }
-  .home #cabeza .caja-redes .lista-redes .lista .redes {
-    width: 25px;
-    margin: 5px;
   }
   .home #cabeza .div-paginas {
     display: flex;
@@ -164,10 +139,11 @@
     margin-top: 20px;
   }
   .home #cabeza .div-paginas .vinculo-paginas {
-    color: white;
-    text-decoration: none;
-    margin-right: 7px;
     font-size: 16px;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    margin: 10px;
   }
   .home #cabeza .div-paginas .vinculo-paginas:visited {
     text-decoration: none;
@@ -194,11 +170,35 @@
     color: white;
   }
   .home #pie {
+    grid-area: pie;
     text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
   }
   .home #pie .pie {
     color: white;
     font-size: 12px;
+  }
+  .home #pie .caja-redes {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+  }
+  .home #pie .caja-redes .lista-redes {
+    margin: 10px 15px 13px 0px;
+  }
+  .home #pie .caja-redes .lista-redes .lista {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+  }
+  .home #pie .caja-redes .lista-redes .lista a {
+    text-decoration: none;
+  }
+  .home #pie .caja-redes .lista-redes .lista .redes {
+    width: 20px;
+    margin: 5px;
   }
 }
 /*desktop*/
@@ -234,38 +234,18 @@
     display: flex;
     flex-flow: column nowrap;
   }
-  .home #cabeza .caja-redes {
-    width: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: end;
-  }
-  .home #cabeza .caja-redes .lista-redes {
-    margin: 20px 15px 13px 0px;
-  }
-  .home #cabeza .caja-redes .lista-redes .lista {
-    list-style: none;
-    display: inline;
-    text-decoration: none;
-  }
-  .home #cabeza .caja-redes .lista-redes .lista a {
-    text-decoration: none;
-  }
-  .home #cabeza .caja-redes .lista-redes .lista .redes {
-    width: 35px;
-    margin: 5px;
-  }
   .home #cabeza .div-paginas {
     display: flex;
     flex-flow: row nowrap;
     justify-content: end;
-    margin-top: 10px;
+    margin: 20px;
   }
   .home #cabeza .div-paginas .vinculo-paginas {
+    font-size: 18px;
     color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-decoration: none;
-    margin-right: 7px;
-    font-size: 16px;
+    margin: 10px;
   }
   .home #cabeza .div-paginas .vinculo-paginas:visited {
     text-decoration: none;
@@ -294,10 +274,37 @@
   .home #pie {
     grid-area: pie;
     text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
   }
   .home #pie .pie {
     color: white;
     font-size: 12px;
+    width: 70%;
+    margin-top: 34px;
+    margin-left: 530px;
+  }
+  .home #pie .caja-redes {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+  }
+  .home #pie .caja-redes .lista-redes {
+    margin: 20px 15px 13px 0px;
+  }
+  .home #pie .caja-redes .lista-redes .lista {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+  }
+  .home #pie .caja-redes .lista-redes .lista a {
+    text-decoration: none;
+  }
+  .home #pie .caja-redes .lista-redes .lista .redes {
+    width: 25px;
+    margin: 5px;
   }
 }
 

@@ -26,47 +26,23 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto 2fr auto;
     }
-    
-    #pie{
-        grid-area: pie;
-    }
     /* ESTILOS ESPECIFICOS */
     .home{
         #cabeza{
             grid-area:cabeza;
             display: flex;
             flex-flow: column nowrap;
-            .caja-redes{
-                width: 100%;
-                display: flex;
-                flex-flow: row nowrap;
-                justify-content: end;
-                .lista-redes{
-                    margin: 20px 15px 13px 0px;
-                    .lista{
-                        list-style: none;
-                        display: inline;
-                        text-decoration: none;
-                        a{
-                           text-decoration: none;
-                        }
-                        .redes{
-                            width: 25px;
-                            margin: 5px;
-                        }
-                    }
-                }
-            }
             .div-paginas{
                 display: flex;
                 flex-flow: row nowrap;
                 justify-content: center;
                 margin-top: 20px;
                 .vinculo-paginas{
-                    color: white;
+                    font-size: 16px;  
+                    color: white;   
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     text-decoration: none;
-                    margin-right: 7px;
-                    font-size: 16px;
+                    margin: 10px;
                     &:visited{
                         text-decoration: none;
                     }
@@ -95,12 +71,36 @@
             }
         }   
         #pie{
+            grid-area: pie;
             text-align: center;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
             .pie{
                 color: white;
                 font-size: 12px;
             }
-        }    
+            .caja-redes{
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: end;
+                .lista-redes{
+                    margin: 10px 15px 13px 0px;
+                    .lista{
+                        list-style: none;
+                        display: inline;
+                        text-decoration: none;
+                        a{
+                           text-decoration: none;
+                        }
+                        .redes{
+                            width: 20px;
+                            margin: 5px;
+                        }
+                    }
+                }
+            }
+        } 
     }
 }
 
@@ -132,47 +132,23 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto 2fr auto;
     }
-    
-    #pie{
-        grid-area: pie;
-    }
     /* ESTILOS ESPECIFICOS */
     .home{
         #cabeza{
             grid-area:cabeza;
             display: flex;
             flex-flow: column nowrap;
-            .caja-redes{
-                width: 100%;
-                display: flex;
-                flex-flow: row nowrap;
-                justify-content: end;
-                .lista-redes{
-                    margin: 20px 15px 13px 0px;
-                    .lista{
-                        list-style: none;
-                        display: inline;
-                        text-decoration: none;
-                        a{
-                           text-decoration: none;
-                        }
-                        .redes{
-                            width: 25px;
-                            margin: 5px;
-                        }
-                    }
-                }
-            }
             .div-paginas{
                 display: flex;
                 flex-flow: row nowrap;
                 justify-content: center;
                 margin-top: 20px;
                 .vinculo-paginas{
-                    color: white;
+                    font-size: 16px;  
+                    color: white;   
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     text-decoration: none;
-                    margin-right: 7px;
-                    font-size: 16px;
+                    margin: 10px;
                     &:visited{
                         text-decoration: none;
                     }
@@ -201,12 +177,36 @@
             }
         }   
         #pie{
+            grid-area: pie;
             text-align: center;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
             .pie{
                 color: white;
                 font-size: 12px;
             }
-        }    
+            .caja-redes{
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: end;
+                .lista-redes{
+                    margin: 10px 15px 13px 0px;
+                    .lista{
+                        list-style: none;
+                        display: inline;
+                        text-decoration: none;
+                        a{
+                           text-decoration: none;
+                        }
+                        .redes{
+                            width: 20px;
+                            margin: 5px;
+                        }
+                    }
+                }
+            }
+        } 
     }
 }
 
@@ -245,37 +245,17 @@
             grid-area:cabeza;
             display: flex;
             flex-flow: column nowrap;
-            .caja-redes{
-                width: 100%;
-                display: flex;
-                flex-flow: row nowrap;
-                justify-content: end;
-                .lista-redes{
-                    margin: 20px 15px 13px 0px;
-                    .lista{
-                        list-style: none;
-                        display: inline;
-                        text-decoration: none;
-                        a{
-                           text-decoration: none;
-                        }
-                        .redes{
-                            width: 35px;
-                            margin: 5px;
-                        }
-                    }
-                }
-            }
             .div-paginas{
                 display: flex;
                 flex-flow: row nowrap;
                 justify-content: end;
-                margin-top: 10px;
+                margin:20px;
                 .vinculo-paginas{
-                    color: white;
+                    font-size: 18px;  
+                    color: white;   
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     text-decoration: none;
-                    margin-right: 7px;
-                    font-size: 16px;
+                    margin: 10px;
                     &:visited{
                         text-decoration: none;
                     }
@@ -306,9 +286,36 @@
         #pie{
             grid-area: pie;
             text-align: center;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
             .pie{
                 color: white;
                 font-size: 12px;
+                width: 70%;
+                margin-top: 34px;
+                margin-left: 530px;
+            }
+            .caja-redes{
+                width: 100%;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: end;
+                .lista-redes{
+                    margin: 20px 15px 13px 0px;
+                    .lista{
+                        list-style: none;
+                        display: inline;
+                        text-decoration: none;
+                        a{
+                           text-decoration: none;
+                        }
+                        .redes{
+                            width: 25px;
+                            margin: 5px;
+                        }
+                    }
+                }
             }
         }    
     }
