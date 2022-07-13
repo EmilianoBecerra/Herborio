@@ -9,5 +9,3 @@ if (typeof nombre === "string"){
     saludo.textContent = "Bienvenidx :)"; 
 }
 
-
-

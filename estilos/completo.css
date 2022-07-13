@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box; }
 
+  body {
+    background-color: white; }
+
   .lineaDivisoria {
     margin-left: 40px;
     margin-right: 40px;
@@ -26,6 +29,8 @@
         color: black; }
         #header .titulo .vinculo {
           text-decoration: none; }
+    #header .saludo {
+      color: black; }
     #header .nav .link {
       font-size: 17px;
       color: black;
@@ -59,10 +64,9 @@
           font-family: sans-serif;
           font-size: 16px; }
         #productos .imagenes-productos .divProductos .boton-carrito {
-          border: solid 1px black;
-          background-color: black;
+          background-color: darkblue;
           border-radius: 4px;
-          padding: 1px;
+          padding: 7px;
           font-size: 14px;
           color: white;
           text-decoration: none; }
@@ -86,13 +90,11 @@
       margin-top: 20px;
       width: 400px; }
     #conocenos .texto {
-      background-color: #ccc5c5;
       margin-top: 15px;
-      border: solid 1px black;
-      border-radius: 4px;
-      width: 400px;
+      width: 350px;
       padding: 2px;
-      text-align: center; }
+      text-align: center;
+      color: black; }
 
   #ubicacion {
     display: flex;
@@ -114,7 +116,8 @@
     #ubicacion .direccion {
       margin-top: 20px;
       font-size: 16px;
-      text-align: center; }
+      text-align: center;
+      color: black; }
 
   #contacto .regreso {
     color: black;
@@ -132,10 +135,27 @@
     align-items: center; }
     #contacto .div-form .formulario {
       padding: 40px;
-      margin: 80px 50px 50px 50px;
-      border: solid 1px black;
       border-radius: 5px;
-      background-image: url(../imagenes/formulario.jpg); }
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      margin: 20px; }
+      #contacto .div-form .formulario .casillaFormulario {
+        width: 300px;
+        border-radius: 4px;
+        border: solid 2px grey; }
+      #contacto .div-form .formulario .letraLabel {
+        color: black; }
+      #contacto .div-form .formulario .botonEnviar {
+        align-items: center;
+        color: white;
+        font-size: 14px;
+        width: 100px;
+        height: 35px;
+        background-color: darkblue;
+        border: none;
+        border-radius: 5px;
+        margin-top: 10px; }
 
   #footer {
     grid-area: pie;
@@ -163,6 +183,9 @@
     padding: 0;
     box-sizing: border-box; }
 
+  body {
+    background-color: white; }
+
   .lineaDivisoria {
     margin-left: 40px;
     margin-right: 40px;
@@ -184,6 +207,8 @@
         color: black; }
         #header .titulo .vinculo {
           text-decoration: none; }
+    #header .saludo {
+      color: black; }
     #header .nav .link {
       font-size: 17px;
       color: black;
@@ -214,13 +239,13 @@
           box-shadow: 15px 15px 20px dimgray; }
         #productos .imagenes-productos .divProductos .nombreTe {
           color: black;
+          margin-top: 5px;
           font-family: sans-serif;
           font-size: 16px; }
         #productos .imagenes-productos .divProductos .boton-carrito {
-          border: solid 1px black;
-          background-color: black;
+          background-color: darkblue;
           border-radius: 4px;
-          padding: 1px;
+          padding: 7px;
           font-size: 14px;
           color: white;
           text-decoration: none; }
@@ -244,10 +269,7 @@
       margin-top: 20px;
       width: 800px; }
     #conocenos .texto {
-      background-color: #c4c2c2;
       margin-top: 15px;
-      border: solid 1px black;
-      border-radius: 4px;
       width: 800px;
       padding: 2px;
       text-align: center; }
@@ -280,7 +302,7 @@
     border-radius: 10px;
     padding: 3px;
     font-size: 16px;
-    margin-left: 1250px; }
+    margin-left: 1200px; }
     #contacto .regreso {
       text-decoration: none; }
   #contacto .div-form {
@@ -290,10 +312,25 @@
     align-items: center; }
     #contacto .div-form .formulario {
       padding: 40px;
-      margin: 80px 50px 50px 50px;
-      border: solid 1px black;
       border-radius: 5px;
-      background-image: url(../imagenes/formulario.jpg); }
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      margin: 20px; }
+      #contacto .div-form .formulario .casillaFormulario {
+        width: 400px;
+        border-radius: 4px;
+        border: solid 2px grey; }
+      #contacto .div-form .formulario .botonEnviar {
+        align-items: center;
+        color: white;
+        font-size: 14px;
+        width: 100px;
+        height: 35px;
+        background-color: darkblue;
+        border: none;
+        border-radius: 5px;
+        margin-top: 10px; }
 
   #footer {
     grid-area: pie;
